@@ -33,7 +33,7 @@ namespace CharStrings
                 How are you ?
             */
 
-            Console.WriteLine(" The sevens days of the week are : \t-Monday \t-Thursday \t-Wednesday \t-Tuesday \t-Friday \t-Saturday \t-Sunday");
+            Console.WriteLine(" The sevens days of the week are : \n\t-Monday \t-Thursday \t-Wednesday \t-Tuesday \t-Friday \t-Saturday \t-Sunday");
             /*
                 The sevens days of the week are :
                     -Monday
@@ -48,3 +48,18 @@ namespace CharStrings
         }
     }
 }
+
+/*
+        ** Explication **
+
+    L'addition (+) permet de faire de la concatenation entre chaines de caracteres
+
+    \ est un caractere d'echappement. Devant ' ou " dans des string qui sont 
+    respectivement dans l'ordre '...' ; "...", il permet de ne pas marquer fin 
+    a la chaine de caracteres et de l'afficher aussi.
+
+    \n permet un retour a la ligne
+
+    \t permet de faire une tabulation
+
+*/
