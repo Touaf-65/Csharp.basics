@@ -41,3 +41,29 @@ namespace Numerics
         }
     }
 }
+
+/*      
+        ** Explication ** 
+
+    L'on peut effectuer toutes les operations mathematiques 
+    possibles que ce soit la division, la multiplication, 
+    la soustraction ou l'addition.
+
+    ~ Les regles de priorites dans une operation sont valables ici aussi
+        int moyenne = (note1 + note2) / 2 # int moyenne = note1 + note2 /2 ;
+
+    ~ Division entiere et division decimale
+
+        int moyenne = 5 / 2;
+        Console.WriteLine(moyenne); // moyenne = 2
+            " Ici nous divisons l'entier 5 par l'entier 2 et nous stockons le
+              résultat dans l'entier moyenne. Le C# réalise en fait une division 
+              entière, c'est-à-dire qu'il prend la partie entière de 2.5, c'est-à-dire 2. "
+
+        double moyenne = 5.0 / 2.0;
+        Console.WriteLine(moyenne); // moyenne = 2.5
+            " Ici, nous divisons deux «doubles» entre eux et nous stockons le 
+            résultat dans un «double». (Rappel: le type de
+            données « double » permet de stocker des nombres à virgule.) "
+
+*/
