@@ -35,3 +35,21 @@ namespace VariableScope
         }
     }
 }
+
+/*
+    ** Explication **
+    string prenom = "Nicolas" est definie explicitement dans la methode 
+    Main et est donc accessible a tous les endroits de cette methode. De 
+    mm pour civilite.
+
+    int age = 30 a ete definie uniquement dans le bloc if. Et donc son 
+    utilisation est restreint a cette boucle.
+
+    De ce fait, 
+    if (age >= 18)
+            {
+                Console.WriteLine(prenom + ", vous êtes majeur");
+            }
+    qui est une boucle hors du bloc if dans lequel on a cree cette variable
+    va generer des erreurs. Car la methode Main() ne contient pas de variable age.
+*/
